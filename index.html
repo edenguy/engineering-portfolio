@@ -7,11 +7,424 @@
 <title>Guy Eden | Engineering Portfolio</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
-:root{--bg:#061018;--panel:#101d2c;--line:#294159;--ink:#eef7ff;--muted:#9bb0c4;--blue:#58a6ff;--cyan:#38d7c4;--violet:#aa8cff;--pink:#f478b8;--green:#55dc86;--amber:#ffc857}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:radial-gradient(900px 520px at 88% -8%,rgba(56,215,196,.16),transparent 62%),radial-gradient(760px 500px at -8% 20%,rgba(170,140,255,.13),transparent 60%),var(--bg);font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{width:min(1200px,calc(100% - 38px));margin:auto;padding:54px 0 75px}.eyebrow{color:var(--cyan);font:800 12px ui-monospace,Consolas,monospace;letter-spacing:.18em;text-transform:uppercase}h1{max-width:1000px;margin:13px 0 18px;font-size:clamp(46px,8vw,90px);line-height:.94;letter-spacing:-.06em}h1 em{font-style:normal;background:linear-gradient(95deg,var(--cyan),var(--blue),var(--violet),var(--pink));-webkit-background-clip:text;color:transparent}.lede{max-width:890px;margin:0;color:var(--muted);font-size:20px}.byline{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 26px;margin-top:26px;padding-top:20px;border-top:1px solid var(--line)}.byline .who{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px}.byline .name{color:var(--ink);font-size:21px;font-weight:800;letter-spacing:-.02em}.byline .role{color:var(--muted);font:700 11px ui-monospace,Consolas,monospace;letter-spacing:.09em;text-transform:uppercase}.contact{display:flex;gap:20px;flex-wrap:wrap}.contact a{color:var(--cyan);text-decoration:none;font:700 13px ui-monospace,Consolas,monospace;letter-spacing:.01em}.contact a:hover{text-decoration:underline}.disclaimer{margin:33px 0;padding:15px 18px;border:1px solid rgba(255,200,87,.3);border-left:4px solid var(--amber);border-radius:11px;background:rgba(255,200,87,.07);color:#e9d8a9}.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:34px 0 55px}.pillar{padding:18px;border:1px solid var(--line);border-top:3px solid var(--c);border-radius:14px;background:linear-gradient(145deg,#15263a,#0e1927)}.pillar b{display:block;color:var(--c);margin-bottom:5px;font-size:17px}.pillar span{color:var(--muted);font-size:12px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:38px 0 16px}.section-head h2{margin:0;font-size:29px}.section-head p{max-width:630px;margin:0;color:var(--muted);text-align:right}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.project{position:relative;display:flex;min-height:310px;flex-direction:column;padding:22px;border:1px solid var(--line);border-top:4px solid var(--c);border-radius:16px;background:linear-gradient(150deg,color-mix(in srgb,var(--c) 8%,#142236),#0b141f);color:inherit;text-decoration:none;overflow:hidden;transition:.18s ease}.project:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--c) 65%,var(--line));box-shadow:0 18px 50px rgba(0,0,0,.25)}.project:focus-visible{outline:3px solid var(--c);outline-offset:3px}.project:after{content:"";position:absolute;width:170px;height:170px;right:-85px;top:-90px;border-radius:50%;background:var(--c);opacity:.12}.category{color:var(--c);font:800 10px ui-monospace,Consolas,monospace;letter-spacing:.12em;text-transform:uppercase}.project h3{margin:14px 0 9px;font-size:22px;line-height:1.17;letter-spacing:-.03em}.project p{margin:0;color:var(--muted)}.role{margin:14px 0;color:#c2d0df;font-size:11px}.mini-flow{display:flex;align-items:center;gap:5px;margin-top:auto;padding-top:15px}.dot{width:9px;height:9px;border-radius:50%;background:var(--c);box-shadow:0 0 12px color-mix(in srgb,var(--c) 60%,transparent)}.line{height:1px;flex:1;background:linear-gradient(90deg,var(--c),var(--line))}.open{margin-top:14px;color:var(--c);font-weight:800}.open:after{content:"  ↗"}footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 22px}footer .foot-links{display:flex;gap:18px;flex-wrap:wrap}footer a{color:var(--cyan);text-decoration:none;font-weight:700}footer a:hover{text-decoration:underline}@media(max-width:950px){.grid{grid-template-columns:repeat(2,1fr)}.pillars{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.grid{grid-template-columns:1fr}.section-head{display:block}.section-head p{text-align:left;margin-top:5px}h1{font-size:49px}}@media(max-width:480px){.wrap{padding:30px 0 46px}.eyebrow{font-size:10px;letter-spacing:.13em}h1{font-size:32px;line-height:1.1;letter-spacing:-.02em;margin:10px 0 13px}.lede{font-size:15px}.byline{margin-top:18px;padding-top:15px;gap:8px 16px}.byline .who{gap:8px}.byline .name{font-size:17px}.byline .role{font-size:10px}.contact{gap:14px}.contact a{font-size:11.5px}.disclaimer{margin:20px 0;padding:11px 13px;font-size:12.5px}.pillars{grid-template-columns:repeat(2,1fr);gap:8px;margin:20px 0 30px}.pillar{padding:12px}.pillar b{font-size:13.5px;margin-bottom:3px}.pillar span{font-size:10.5px}.section-head{margin:28px 0 12px}.section-head h2{font-size:21px}.section-head p{font-size:12.5px}.grid{gap:10px}.project{min-height:0;padding:16px}.project:after{width:110px;height:110px;right:-55px;top:-60px}.project h3{font-size:18px;margin:10px 0 6px}.project p{font-size:13px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.project .role{font-size:10px;margin:9px 0}.mini-flow{padding-top:10px}.open{margin-top:10px;font-size:13px}footer{margin-top:32px;padding-top:16px;font-size:11px;gap:6px 16px}}
+:root{
+  --bg:#061018;
+  --panel:#101d2c;
+  --line:#294159;
+  --ink:#eef7ff;
+  --muted:#9bb0c4;
+  --blue:#58a6ff;
+  --cyan:#38d7c4;
+  --violet:#aa8cff;
+  --pink:#f478b8;
+  --green:#55dc86;
+  --amber:#ffc857
+}
+*{
+  box-sizing:border-box
+}
+body{
+  margin:0;
+  color:var(--ink);
+  background:radial-gradient(900px 520px at 88% -8%,rgba(56,215,196,.16),transparent 62%),radial-gradient(760px 500px at -8% 20%,rgba(170,140,255,.13),transparent 60%),var(--bg);
+  font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif
+}
+.wrap{
+  width:min(1200px,calc(100% - 38px));
+  margin:auto;
+  padding:54px 0 75px
+}
+.eyebrow{
+  color:var(--cyan);
+  font:800 12px ui-monospace,Consolas,monospace;
+  letter-spacing:.18em;
+  text-transform:uppercase
+}
+h1{
+  max-width:1000px;
+  margin:13px 0 18px;
+  font-size:clamp(46px,8vw,90px);
+  line-height:.94;
+  letter-spacing:-.06em
+}
+h1 em{
+  font-style:normal;
+  background:linear-gradient(95deg,var(--cyan),var(--blue),var(--violet),var(--pink));
+  -webkit-background-clip:text;
+  color:transparent
+}
+.lede{
+  max-width:890px;
+  margin:0;
+  color:var(--muted);
+  font-size:20px
+}
+.byline{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px 26px;
+  margin-top:26px;
+  padding-top:20px;
+  border-top:1px solid var(--line)
+}
+.byline .who{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:14px
+}
+.byline .who-text{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:baseline;
+  gap:12px
+}
+.avatar-link{
+  flex-shrink:0;
+  display:block;
+  border-radius:50%;
+  transition:transform .15s ease
+}
+.avatar-link:hover{
+  transform:scale(1.05)
+}
+.avatar{
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:55% 18%;
+  border:2px solid var(--line);
+  display:block
+}
+.byline .name{
+  color:var(--ink);
+  font-size:21px;
+  font-weight:800;
+  letter-spacing:-.02em
+}
+.byline .role{
+  color:var(--muted);
+  font:700 11px ui-monospace,Consolas,monospace;
+  letter-spacing:.09em;
+  text-transform:uppercase
+}
+.contact{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap
+}
+.contact a{
+  color:var(--cyan);
+  text-decoration:none;
+  font:700 13px ui-monospace,Consolas,monospace;
+  letter-spacing:.01em
+}
+.contact a:hover{
+  text-decoration:underline
+}
+.disclaimer{
+  margin:33px 0;
+  padding:15px 18px;
+  border:1px solid rgba(255,200,87,.3);
+  border-left:4px solid var(--amber);
+  border-radius:11px;
+  background:rgba(255,200,87,.07);
+  color:#e9d8a9
+}
+.pillars{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:34px 0 55px
+}
+.pillar{
+  padding:18px;
+  border:1px solid var(--line);
+  border-top:3px solid var(--c);
+  border-radius:14px;
+  background:linear-gradient(145deg,#15263a,#0e1927)
+}
+.pillar b{
+  display:block;
+  color:var(--c);
+  margin-bottom:5px;
+  font-size:17px
+}
+.pillar span{
+  color:var(--muted);
+  font-size:12px
+}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:20px;
+  margin:38px 0 16px
+}
+.section-head h2{
+  margin:0;
+  font-size:29px
+}
+.section-head p{
+  max-width:630px;
+  margin:0;
+  color:var(--muted);
+  text-align:right
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:15px
+}
+.project{
+  position:relative;
+  display:flex;
+  min-height:310px;
+  flex-direction:column;
+  padding:22px;
+  border:1px solid var(--line);
+  border-top:4px solid var(--c);
+  border-radius:16px;
+  background:linear-gradient(150deg,color-mix(in srgb,var(--c) 8%,#142236),#0b141f);
+  color:inherit;
+  text-decoration:none;
+  overflow:hidden;
+  transition:.18s ease
+}
+.project:hover{
+  transform:translateY(-4px);
+  border-color:color-mix(in srgb,var(--c) 65%,var(--line));
+  box-shadow:0 18px 50px rgba(0,0,0,.25)
+}
+.project:focus-visible{
+  outline:3px solid var(--c);
+  outline-offset:3px
+}
+.project:after{
+  content:"";
+  position:absolute;
+  width:170px;
+  height:170px;
+  right:-85px;
+  top:-90px;
+  border-radius:50%;
+  background:var(--c);
+  opacity:.12
+}
+.category{
+  color:var(--c);
+  font:800 10px ui-monospace,Consolas,monospace;
+  letter-spacing:.12em;
+  text-transform:uppercase
+}
+.project h3{
+  margin:14px 0 9px;
+  font-size:22px;
+  line-height:1.17;
+  letter-spacing:-.03em
+}
+.project p{
+  margin:0;
+  color:var(--muted)
+}
+.role{
+  margin:14px 0;
+  color:#c2d0df;
+  font-size:11px
+}
+.mini-flow{
+  display:flex;
+  align-items:center;
+  gap:5px;
+  margin-top:auto;
+  padding-top:15px
+}
+.dot{
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  background:var(--c);
+  box-shadow:0 0 12px color-mix(in srgb,var(--c) 60%,transparent)
+}
+.line{
+  height:1px;
+  flex:1;
+  background:linear-gradient(90deg,var(--c),var(--line))
+}
+.open{
+  margin-top:14px;
+  color:var(--c);
+  font-weight:800
+}
+.open:after{
+  content:"  ↗"
+}
+footer{
+  margin-top:50px;
+  padding-top:20px;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:12px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  gap:10px 22px
+}
+footer .foot-links{
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap
+}
+footer a{
+  color:var(--cyan);
+  text-decoration:none;
+  font-weight:700
+}
+footer a:hover{
+  text-decoration:underline
+}
+@media(max-width:950px){
+  .grid{
+    grid-template-columns:repeat(2,1fr)
+  }
+  .pillars{
+    grid-template-columns:repeat(2,1fr)
+  }
+}
+@media(max-width:620px){
+  .grid{
+    grid-template-columns:1fr
+  }
+  .section-head{
+    display:block
+  }
+  .section-head p{
+    text-align:left;
+    margin-top:5px
+  }
+  h1{
+    font-size:49px
+  }
+}
+@media(max-width:480px){
+  .wrap{
+    padding:30px 0 46px
+  }
+  .eyebrow{
+    font-size:10px;
+    letter-spacing:.13em
+  }
+  h1{
+    font-size:32px;
+    line-height:1.1;
+    letter-spacing:-.02em;
+    margin:10px 0 13px
+  }
+  .lede{
+    font-size:15px
+  }
+  .byline{
+    margin-top:18px;
+    padding-top:15px;
+    gap:8px 16px
+  }
+  .byline .who{
+    gap:10px
+  }
+  .avatar{
+    width:50px;
+    height:50px
+  }
+  .byline .name{
+    font-size:17px
+  }
+  .byline .role{
+    font-size:10px
+  }
+  .contact{
+    gap:14px
+  }
+  .contact a{
+    font-size:11.5px
+  }
+  .disclaimer{
+    margin:20px 0;
+    padding:11px 13px;
+    font-size:12.5px
+  }
+  .pillars{
+    grid-template-columns:repeat(2,1fr);
+    gap:8px;
+    margin:20px 0 30px
+  }
+  .pillar{
+    padding:12px
+  }
+  .pillar b{
+    font-size:13.5px;
+    margin-bottom:3px
+  }
+  .pillar span{
+    font-size:10.5px
+  }
+  .section-head{
+    margin:28px 0 12px
+  }
+  .section-head h2{
+    font-size:21px
+  }
+  .section-head p{
+    font-size:12.5px
+  }
+  .grid{
+    gap:10px
+  }
+  .project{
+    min-height:0;
+    padding:16px
+  }
+  .project:after{
+    width:110px;
+    height:110px;
+    right:-55px;
+    top:-60px
+  }
+  .project h3{
+    font-size:18px;
+    margin:10px 0 6px
+  }
+  .project p{
+    font-size:13px;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden
+  }
+  .project .role{
+    font-size:10px;
+    margin:9px 0
+  }
+  .mini-flow{
+    padding-top:10px
+  }
+  .open{
+    margin-top:10px;
+    font-size:13px
+  }
+  footer{
+    margin-top:32px;
+    padding-top:16px;
+    font-size:11px;
+    gap:6px 16px
+  }
+}
 </style>
 </head>
 <body><main class="wrap">
-<header><div class="eyebrow">Distributed systems · AI engineering · developer platforms</div><h1>I build systems that make <em>complex work durable, measurable, and operable.</em></h1><p class="lede">Selected projects I initiated, architected, or led—covering asynchronous orchestration, AI agent governance, technical investigation intelligence, native desktop systems, observability, cloud abstractions, and visual debugging.</p><div class="byline"><div class="who"><span class="name">Guy Eden</span><span class="role">Principal Software Engineer · AI Engineering &amp; Agentic Systems</span></div><div class="contact"><a href="mailto:edenguy@gmail.com">edenguy@gmail.com</a><a href="https://www.linkedin.com/in/geden" target="_blank" rel="noopener">linkedin.com/in/geden ↗</a></div></div></header>
+<header><div class="eyebrow">Distributed systems · AI engineering · developer platforms</div><h1>I build systems that make <em>complex work durable, measurable, and operable.</em></h1><p class="lede">Selected projects I initiated, architected, or led—covering asynchronous orchestration, AI agent governance, technical investigation intelligence, native desktop systems, observability, cloud abstractions, and visual debugging.</p><div class="byline"><div class="who"><a class="avatar-link" href="guy-eden.jpg" target="_blank" rel="noopener" aria-label="Open full-resolution photo"><img class="avatar" src="guy-eden.jpg" alt="Guy Eden" width="64" height="64"></a><div class="who-text"><span class="name">Guy Eden</span><span class="role">Principal Software Engineer · AI Engineering &amp; Agentic Systems</span></div></div><div class="contact"><a href="mailto:edenguy@gmail.com">edenguy@gmail.com</a><a href="https://www.linkedin.com/in/geden" target="_blank" rel="noopener">linkedin.com/in/geden ↗</a></div></div></header>
 <div class="disclaimer">The projects shown here are generalized reconstructions. Employer-specific names, data, topology, identifiers, and source code have been changed or removed. All examples use synthetic data.</div>
 <section class="pillars"><div class="pillar" style="--c:var(--blue)"><b>Durable architecture</b><span>Externalized state, explicit failure boundaries, backpressure, and recovery.</span></div><div class="pillar" style="--c:var(--violet)"><b>Governed AI</b><span>Typed handoffs, evaluation, adversarial checks, and human authority.</span></div><div class="pillar" style="--c:var(--pink)"><b>Product-quality tools</b><span>Desktop, browser, CLI, visual narratives, and responsive interaction.</span></div><div class="pillar" style="--c:var(--green)"><b>Safe automation</b><span>Identity, provenance, cancellation, scoped repair, and privacy boundaries.</span></div></section>
 <section><div class="section-head"><h2>Selected projects</h2><p>Each card opens an infographic with architecture, design decisions, and public-safe code examples.</p></div><div class="grid" id="projects"></div></section>
